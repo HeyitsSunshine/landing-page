@@ -1,6 +1,4 @@
-<html>
-<head>
-<style>
+
 * {
   box-sizing: border-box;
 }
@@ -8,14 +6,34 @@
 body {
   font-family: Arial;
   padding: 10px;
-  background: #f1f1f1;
+  background: #918f8f;
+}
+
+.header,
+.topnav,
+.row,
+.card {
+  display: grid;
+  grid-template-rows: 25%, 50%, 35%, 15%;
+  gap: 1.2rem;
+  padding-block: 2rem;
+  width: min(95%, 70rem);
+  margin-inline: auto;
 }
 
 /* Header/Blog Title */
 .header {
   padding: 30px;
   text-align: center;
-  background: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  background-color: #333;
+}
+
+/* Body Stuffs */
+body {
+  background-color: #333;
+  margin: 2em;
 }
 
 .header h1 {
@@ -29,7 +47,9 @@ body {
 }
 
 /* Style the topnav links */
-.topnav a {
+.topnav, 
+ul,
+li {
   float: left;
   display: block;
   color: #f2f2f2;
@@ -46,18 +66,6 @@ body {
 
 /* Create two unequal columns that floats next to each other */
 /* Left column */
-.leftcolumn {   
-  float: left;
-  width: 75%;
-}
-
-/* Right column */
-.rightcolumn {
-  float: left;
-  width: 25%;
-  background-color: #f1f1f1;
-  padding-left: 20px;
-}
 
 /* Fake image */
 .fakeimg {
