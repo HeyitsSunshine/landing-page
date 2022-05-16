@@ -1,6 +1,7 @@
 
 * {
-  border:4px
+ margin: 0px;
+
 }
 
  div,
@@ -8,28 +9,30 @@
 .topnav,
 .row {
   display: grid;
-  grid-template-rows: auto, auto, auto, auto;
+  grid-template-rows: 25%, 25%, 25%, 25%;
   gap: 1.2rem;
   border:2em;
-  grid-row-gap: 12px;
+  grid-row-gap: 5px;
 }
 
 title {
-  text-align: justify;
+  text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
   font-weight: 300;
 }
 
 div {
-  padding: 30px;
+  display: grid;
+  padding: 5px;
   text-align: center;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 /* Header/Blog Title */
 .header {
-  padding: 30px;
+  display: grid;
+  padding: 5px;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 400;
@@ -38,6 +41,7 @@ div {
 
 /* Body Stuffs */
 body {
+  display: grid;
   background-color: rgb(104, 104, 104);
   margin: 2em;
   font-family: Arial;
@@ -47,11 +51,12 @@ body {
 }
 
 .header h1 {
-  font-size: 50px;
+  font-size: 14px;
 }
 
 /* Style the top navigation bar */
 .topnav {
+  display: grid;
   overflow: hidden;
   background-color: #333;
 }
@@ -61,7 +66,7 @@ body {
 ul,
 li {
   text-align: center;
-  padding: 14px 16px;
+  padding: 14px;
   text-decoration: none;
   font-size: 12px;
   font-weight: 250;
@@ -69,7 +74,7 @@ li {
 }
 
 h2 {
-  margin:'auto';
+  margin: 0px;
   font-size: 12px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 350;
@@ -85,12 +90,12 @@ h2 {
 /* Left column */
 
 /* Fake image */
-.img {
-  background-color: #aaa;
-  width: auto;
-  padding: 15px;
-  height: 15%;
-  margin: 10px;
+#img {
+  display: grid;
+  width: 15px;
+  padding: 10px;
+  height: 15px;
+  margin: 5px;
 }
 
 /*Button STuff*/
@@ -111,10 +116,10 @@ h2 {
 
 /* Footer */
 .footer {
-  padding: 20px;
+  padding: 5px;
   text-align: center;
   background: #ddd;
-  margin-top: 20px;
+  margin-top: 5px;
 }
 
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
