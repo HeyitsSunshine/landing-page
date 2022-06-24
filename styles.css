@@ -1,4 +1,4 @@
-
+  
 * {
  margin: 0px;
 
@@ -9,7 +9,6 @@
 .topnav,
 .row {
   display: grid;
-  grid-template-rows: 25%, 25%, 25%, 25%;
   gap: 1.2rem;
   border:2em;
   grid-row-gap: 5px;
@@ -90,7 +89,7 @@ h2 {
 /* Left column */
 
 /* Fake image */
-#img {
+#body,div,img {
   display: grid;
   width: 15px;
   padding: 10px;
