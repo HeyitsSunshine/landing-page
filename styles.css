@@ -9,6 +9,7 @@
 .topnav,
 .row {
   display: grid;
+  grid-template-rows: 25%, 25%, 25%, 25%;
   gap: 1.2rem;
   border:2em;
   grid-row-gap: 5px;
